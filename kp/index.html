@@ -360,11 +360,11 @@
 <p>Выполненная работа размещена по <a href="https://docs.google.com/document/d/1Yy5XSlZMV_LCf__pFYZofkPC0Xr2Y02rM8E8vW8luzc/edit?usp=sharing">ссылке</a>.</p>
 <p>Вывод: в ходе работы были освоены основные операции по сборке проекта с помощью webpack.</p>
 
-<button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop-d4b8c50c">
+<button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop-9d765080">
   Открыть отчёт
 </button>
 
-<div class="modal fade" id="staticBackdrop-d4b8c50c" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal fade" id="staticBackdrop-9d765080" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
@@ -373,33 +373,33 @@
       </div>
       <div class="modal-body"><div class="row">
           <div class="col-lg-10" style="margin: 0 auto;">
-            <div class="embed-pdf-container" id="embed-pdf-container-d4b8c50c">
-              <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-d4b8c50c">
-                  <div class="pdf-loading" id="pdf-loading-d4b8c50c"></div>
+            <div class="embed-pdf-container" id="embed-pdf-container-9d765080">
+              <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-9d765080">
+                  <div class="pdf-loading" id="pdf-loading-9d765080"></div>
               </div>
               <div id="overlayText">
-                <a href="files/kp/lab/lab5-6.pdf" aria-label="Download" download>
+                <a href="/files/kp/lab/lab5-6.pdf" aria-label="Download" download>
                   <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
                       <path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
                   </svg>
                 </a>
               </div>
-              <canvas class="pdf-canvas" id="pdf-canvas-d4b8c50c"></canvas>
+              <canvas class="pdf-canvas" id="pdf-canvas-9d765080"></canvas>
             </div>
           </div>
         </div>
 
-        <div class="pdf-paginator mt-3 text-center" id="pdf-paginator-d4b8c50c">
-            <button id="pdf-prev-d4b8c50c" class="btn btn-secondary">Previous</button>
-            <button id="pdf-next-d4b8c50c" class="btn btn-secondary">Next</button> &nbsp; &nbsp;
+        <div class="pdf-paginator mt-3 text-center" id="pdf-paginator-9d765080">
+            <button id="pdf-prev-9d765080" class="btn btn-secondary">Previous</button>
+            <button id="pdf-next-9d765080" class="btn btn-secondary">Next</button> &nbsp; &nbsp;
             <span>
-              <span class="pdf-pagenum" id="pdf-pagenum-d4b8c50c"></span> / <span class="pdf-pagecount" id="pdf-pagecount-d4b8c50c"></span>
+              <span class="pdf-pagenum" id="pdf-pagenum-9d765080"></span> / <span class="pdf-pagecount" id="pdf-pagecount-9d765080"></span>
             </span>
-            <a class="pdf-source" id="pdf-source-d4b8c50c" href="files/kp/lab/lab5-6.pdf">[pdf]</a>
+            <a class="pdf-source" id="pdf-source-9d765080" href="/files/kp/lab/lab5-6.pdf">[pdf]</a>
         </div>
 
         <noscript>
-        View the PDF file <a class="pdf-source" id="pdf-source-noscript-d4b8c50c" href="files/kp/lab/lab5-6.pdf">here</a>.
+        View the PDF file <a class="pdf-source" id="pdf-source-noscript-9d765080" href="/files/kp/lab/lab5-6.pdf">here</a>.
         </noscript>
       </div>
     </div>
@@ -408,7 +408,7 @@
 
 <script type="text/javascript">
     (function(){
-    var url = 'files\/kp\/lab\/lab5-6.pdf';
+    var url = '\/files\/kp\/lab\/lab5-6.pdf';
 
     var hidePaginator = "" === "true";
     var hideLoader = "" === "true";
@@ -427,10 +427,10 @@
         pageRendering = false,
         pageNumPending = null,
         scale = 3,
-        canvas = document.getElementById('pdf-canvas-d4b8c50c'),
+        canvas = document.getElementById('pdf-canvas-9d765080'),
         ctx = canvas.getContext('2d'),
-        paginator = document.getElementById("pdf-paginator-d4b8c50c"),
-        loadingWrapper = document.getElementById('pdf-loadingWrapper-d4b8c50c');
+        paginator = document.getElementById("pdf-paginator-9d765080"),
+        loadingWrapper = document.getElementById('pdf-loadingWrapper-9d765080');
 
 
     
@@ -468,7 +468,7 @@
       });
 
       
-      document.getElementById('pdf-pagenum-d4b8c50c').textContent = num;
+      document.getElementById('pdf-pagenum-9d765080').textContent = num;
     }
 
     
@@ -512,7 +512,7 @@
       pageNum--;
       queueRenderPage(pageNum);
     }
-    document.getElementById('pdf-prev-d4b8c50c').addEventListener('click', onPrevPage);
+    document.getElementById('pdf-prev-9d765080').addEventListener('click', onPrevPage);
 
     
 
@@ -523,14 +523,14 @@
       pageNum++;
       queueRenderPage(pageNum);
     }
-    document.getElementById('pdf-next-d4b8c50c').addEventListener('click', onNextPage);
+    document.getElementById('pdf-next-9d765080').addEventListener('click', onNextPage);
 
     
 
     pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
       pdfDoc = pdfDoc_;
       var numPages = pdfDoc.numPages;
-      document.getElementById('pdf-pagecount-d4b8c50c').textContent = numPages;
+      document.getElementById('pdf-pagecount-9d765080').textContent = numPages;
 
       
       if(pageNum > numPages) {
@@ -554,7 +554,7 @@
     
 
 
-<a href="files/kp/lab/lab7-8.html" class="btn btn-primary mb-3">
+<a href="/files/kp/lab/lab7-8.html" class="btn btn-primary mb-3">
     Открыть страницу
 </a>
 <hr>
@@ -564,11 +564,11 @@
 <p>Выполненная работа размещена по <a href="https://docs.google.com/document/d/1rVkmrc9tlCK4JL7kZLEg-WPY49MUkv9wwX-P-rdjUXU/edit?usp=sharing">ссылке</a>.</p>
 <p>Вывод: в ходе работы были отправлены запросы на сервер методом POST с помощью клиентов telnet и cURL, освоены операции отправки данных на сервер.</p>
 
-<button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop-224f4b53">
+<button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop-90f24e43">
   Открыть отчёт
 </button>
 
-<div class="modal fade" id="staticBackdrop-224f4b53" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal fade" id="staticBackdrop-90f24e43" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
@@ -577,33 +577,33 @@
       </div>
       <div class="modal-body"><div class="row">
           <div class="col-lg-10" style="margin: 0 auto;">
-            <div class="embed-pdf-container" id="embed-pdf-container-224f4b53">
-              <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-224f4b53">
-                  <div class="pdf-loading" id="pdf-loading-224f4b53"></div>
+            <div class="embed-pdf-container" id="embed-pdf-container-90f24e43">
+              <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-90f24e43">
+                  <div class="pdf-loading" id="pdf-loading-90f24e43"></div>
               </div>
               <div id="overlayText">
-                <a href="files/kp/lab/lab9-10.pdf" aria-label="Download" download>
+                <a href="/files/kp/lab/lab9-10.pdf" aria-label="Download" download>
                   <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
                       <path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
                   </svg>
                 </a>
               </div>
-              <canvas class="pdf-canvas" id="pdf-canvas-224f4b53"></canvas>
+              <canvas class="pdf-canvas" id="pdf-canvas-90f24e43"></canvas>
             </div>
           </div>
         </div>
 
-        <div class="pdf-paginator mt-3 text-center" id="pdf-paginator-224f4b53">
-            <button id="pdf-prev-224f4b53" class="btn btn-secondary">Previous</button>
-            <button id="pdf-next-224f4b53" class="btn btn-secondary">Next</button> &nbsp; &nbsp;
+        <div class="pdf-paginator mt-3 text-center" id="pdf-paginator-90f24e43">
+            <button id="pdf-prev-90f24e43" class="btn btn-secondary">Previous</button>
+            <button id="pdf-next-90f24e43" class="btn btn-secondary">Next</button> &nbsp; &nbsp;
             <span>
-              <span class="pdf-pagenum" id="pdf-pagenum-224f4b53"></span> / <span class="pdf-pagecount" id="pdf-pagecount-224f4b53"></span>
+              <span class="pdf-pagenum" id="pdf-pagenum-90f24e43"></span> / <span class="pdf-pagecount" id="pdf-pagecount-90f24e43"></span>
             </span>
-            <a class="pdf-source" id="pdf-source-224f4b53" href="files/kp/lab/lab9-10.pdf">[pdf]</a>
+            <a class="pdf-source" id="pdf-source-90f24e43" href="/files/kp/lab/lab9-10.pdf">[pdf]</a>
         </div>
 
         <noscript>
-        View the PDF file <a class="pdf-source" id="pdf-source-noscript-224f4b53" href="files/kp/lab/lab9-10.pdf">here</a>.
+        View the PDF file <a class="pdf-source" id="pdf-source-noscript-90f24e43" href="/files/kp/lab/lab9-10.pdf">here</a>.
         </noscript>
       </div>
     </div>
@@ -612,7 +612,7 @@
 
 <script type="text/javascript">
     (function(){
-    var url = 'files\/kp\/lab\/lab9-10.pdf';
+    var url = '\/files\/kp\/lab\/lab9-10.pdf';
 
     var hidePaginator = "" === "true";
     var hideLoader = "" === "true";
@@ -631,10 +631,10 @@
         pageRendering = false,
         pageNumPending = null,
         scale = 3,
-        canvas = document.getElementById('pdf-canvas-224f4b53'),
+        canvas = document.getElementById('pdf-canvas-90f24e43'),
         ctx = canvas.getContext('2d'),
-        paginator = document.getElementById("pdf-paginator-224f4b53"),
-        loadingWrapper = document.getElementById('pdf-loadingWrapper-224f4b53');
+        paginator = document.getElementById("pdf-paginator-90f24e43"),
+        loadingWrapper = document.getElementById('pdf-loadingWrapper-90f24e43');
 
 
     
@@ -672,7 +672,7 @@
       });
 
       
-      document.getElementById('pdf-pagenum-224f4b53').textContent = num;
+      document.getElementById('pdf-pagenum-90f24e43').textContent = num;
     }
 
     
@@ -716,7 +716,7 @@
       pageNum--;
       queueRenderPage(pageNum);
     }
-    document.getElementById('pdf-prev-224f4b53').addEventListener('click', onPrevPage);
+    document.getElementById('pdf-prev-90f24e43').addEventListener('click', onPrevPage);
 
     
 
@@ -727,14 +727,14 @@
       pageNum++;
       queueRenderPage(pageNum);
     }
-    document.getElementById('pdf-next-224f4b53').addEventListener('click', onNextPage);
+    document.getElementById('pdf-next-90f24e43').addEventListener('click', onNextPage);
 
     
 
     pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
       pdfDoc = pdfDoc_;
       var numPages = pdfDoc.numPages;
-      document.getElementById('pdf-pagecount-224f4b53').textContent = numPages;
+      document.getElementById('pdf-pagecount-90f24e43').textContent = numPages;
 
       
       if(pageNum > numPages) {
