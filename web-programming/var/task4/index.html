@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <link href="/scss/styles.6e16700409dbf6e5abf2c3615d4fdde3b684602167e0ff2eb6981858e77b0c9a.css" rel="stylesheet" />
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        <script src="/js/index.ac84e41b83204f787ac9dddeb3b15030497a26873d789381b1e0c34c94deab34.js" integrity="sha256-rITkG4MgT3h6yd3es7FQMEl6Joc9eJOBseDDTJTeqzQ=" defer></script>
+    </head>
+    <body class="d-flex flex-column h-100">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container container-fluid">
+                <a class="navbar-brand" href="/">Портфолио</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Дисциплины
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/kp">Компьютерный практикум</a></li>
+                                <li><a class="dropdown-item" href="/programming">Программирование</a></li>
+                                <li><a class="dropdown-item" href="/web-programming">Веб-программирование и веб-языки</a></li>
+                                <li><a class="dropdown-item" href="/server-tech">Серверные веб-технологии</a></li>
+                                <li><a class="dropdown-item" href="/it">Прикладные информационные технологии</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/courseworks">Курсовые работы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/publications">Публикации</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main class="flex-shrink-0">
+            <div class="container my-5">
+                
+    <h1 class="pb-3"></h1>
+
+    <h3 id="тема-4-подготовка-материалов-для-выступления-по-настройке-линтера-кода">Тема 4. Подготовка материалов для выступления по настройке линтера кода</h3>
+<p>ESLint - это статический анализатор кода, который может находить синтаксические ошибки, баги и неточности форматирования.</p>
+<p>Для работы ESLint необходимо установить Node.js и npm.</p>
+<p>Настройка линтера eslint для Visual Studio Code:</p>
+<ol>
+<li>Установка eslint</li>
+</ol>
+<pre tabindex="0"><code>npm install -D eslint
+</code></pre><ol start="2">
+<li>Установка плагинов eslint</li>
+</ol>
+<pre tabindex="0"><code>npm install -D eslint-config-airbnb-base eslint-plugin-import
+</code></pre><ol start="3">
+<li>Создание конфигурационного файла .eslintrc.yml</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">extends</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#e6db74">&#39;airbnb-base&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">env</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">node</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">browser</span>: <span style="color:#66d9ef">true</span>
+</span></span></code></pre></div><ol start="4">
+<li>Установка плагина ESLint</li>
+</ol>
+<p><img src="task-4-1.png" alt=""></p>
+<p>Исправление кода с учётом рекомендаций линтера:</p>
+<p><img src="task-4-2.png" alt=""></p>
+<p><img src="task-4-3.png" alt=""></p>
+
+
+            </div>
+        </main>
+        <footer class="footer mt-auto py-3 bg-light">
+            <div class="container">
+                <span>&copy; Мельников Федор, 2023</span>
+            </div>
+        </footer>
+    </body>
+</html>

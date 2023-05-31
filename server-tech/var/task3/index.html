@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <link href="/scss/styles.6e16700409dbf6e5abf2c3615d4fdde3b684602167e0ff2eb6981858e77b0c9a.css" rel="stylesheet" />
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        <script src="/js/index.ac84e41b83204f787ac9dddeb3b15030497a26873d789381b1e0c34c94deab34.js" integrity="sha256-rITkG4MgT3h6yd3es7FQMEl6Joc9eJOBseDDTJTeqzQ=" defer></script>
+    </head>
+    <body class="d-flex flex-column h-100">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container container-fluid">
+                <a class="navbar-brand" href="/">Портфолио</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Дисциплины
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/kp">Компьютерный практикум</a></li>
+                                <li><a class="dropdown-item" href="/programming">Программирование</a></li>
+                                <li><a class="dropdown-item" href="/web-programming">Веб-программирование и веб-языки</a></li>
+                                <li><a class="dropdown-item" href="/server-tech">Серверные веб-технологии</a></li>
+                                <li><a class="dropdown-item" href="/it">Прикладные информационные технологии</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/courseworks">Курсовые работы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/publications">Публикации</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main class="flex-shrink-0">
+            <div class="container my-5">
+                
+    <h1 class="pb-3"></h1>
+
+    <h3 id="тема-3-подготовка-презентации-и-мастер-класса-по-сравнению-характеристик-mongodb-и-cassandra">Тема 3. Подготовка презентации и мастер-класса по сравнению характеристик MongoDB и Cassandra</h3>
+<p><strong>MongoDB</strong> — документоориентированная система управления базами данных, не требующая описания схемы таблиц. Считается одним из классических примеров NoSQL-систем, использует JSON-подобные документы и схему базы данных.</p>
+<p><strong>Apache Cassandra</strong> — распределённая система управления базами данных, относящаяся к классу NoSQL-систем и рассчитанная на создание высокомасштабируемых и надёжных хранилищ огромных массивов данных, представленных в виде хэша.</p>
+<h4 id="mongodb">MongoDB</h4>
+<p>Имеется поддержка индексов. Система может работать с набором реплик, то есть содержать две или более копии данных на различных узлах. Система масштабируется горизонтально, используя технику сегментирования объектов баз данных — распределение их частей по различным узлам кластера. Она может быть использована в качестве файлового хранилища с балансировкой нагрузки и репликацией данных. Может работать в соответствии с парадигмой MapReduce. Поддерживается JavaScript в запросах, функциях агрегации. Поддерживаются коллекции с фиксированным размером. Имеется поддержка транзакций, удовлетворяющих требованиям ACID.</p>
+<h4 id="apache-cassandra">Apache Cassandra</h4>
+<p>Cassandra реализует распределённую хэш-систему, что обеспечивает практически линейную масштабируемость при увеличении объёма данных. Использует модель хранения данных на базе семейства столбцов. Относится к категории отказоустойчивых СУБД: помещённые в базу данные автоматически реплицируются на несколько узлов распредёленной сети или даже равномерно распределяются в нескольких дата-центрах.</p>
+<h4 id="создание-таблицы-коллекции">Создание таблицы (коллекции)</h4>
+<p>MongoDB организует данные в базы данных (Database), где есть коллекции (Collections), в которых лежат документы (Documents). Команда <code>use database</code> создает экземпляр базы данных при первом вызове и изменяет контекст для вновь созданной базы данных. Коллекции создаются автоматически при добавлении первого документа в новую коллекцию.</p>
+<p>Создание таблицы с Cassandra похоже на SQL. Одним из основных различий является отсутствие ограничений целостности (например, NOT NULL), но это входит в зону ответственности приложения, а не NoSQL базы данных.</p>
+<h4 id="добавление-данных">Добавление данных</h4>
+<p>В целом выражение INSERT в Cassandra выглядит очень похоже на аналогичное в SQL.</p>
+<p>Несмотря на то, что MongoDB является NoSQL базой данных, подобно Cassandra, ее операция внесения данных не имеет ничего общего с семантическим поведением в Cassandra.</p>
+<h4 id="получение-данных">Получение данных</h4>
+<p>Выражение SELECT в Cassandra похоже на аналогичное в SQL.</p>
+<p>В MongoDB основным методом создания запросов является метод <code>db.collection.find()</code>.</p>
+<h4 id="редактирование-данных">Редактирование данных</h4>
+<p>В Cassandra есть выражение UPDATE, аналогичное SQL. UPDATE имеет ту же семантику UPSERT, подобно INSERT.</p>
+<p>В MongoDB операция <code>update()</code> может полностью обновить существующий документ или обновить только определенные поля.</p>
+<h4 id="удаление-данных">Удаление данных</h4>
+<p>Выражение DELETE в Cassandra аналогично SQL.</p>
+<p>В MongoDB есть следующие операции для удаления документов: <code>deleteOne()</code>, <code>deleteMany()</code> и <code>remove()</code>.</p>
+<h4 id="удаление-таблицы-коллекции">Удаление таблицы (коллекции)</h4>
+<p>Выражение DROP TABLE в Cassandra аналогично SQL.</p>
+<p>В MongoDB для удаления коллекции используется операция <code>drop()</code>.</p>
+
+
+            </div>
+        </main>
+        <footer class="footer mt-auto py-3 bg-light">
+            <div class="container">
+                <span>&copy; Мельников Федор, 2023</span>
+            </div>
+        </footer>
+    </body>
+</html>

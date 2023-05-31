@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <link href="/scss/styles.6e16700409dbf6e5abf2c3615d4fdde3b684602167e0ff2eb6981858e77b0c9a.css" rel="stylesheet" />
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        <script src="/js/index.ac84e41b83204f787ac9dddeb3b15030497a26873d789381b1e0c34c94deab34.js" integrity="sha256-rITkG4MgT3h6yd3es7FQMEl6Joc9eJOBseDDTJTeqzQ=" defer></script>
+    </head>
+    <body class="d-flex flex-column h-100">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container container-fluid">
+                <a class="navbar-brand" href="/">Портфолио</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Дисциплины
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/kp">Компьютерный практикум</a></li>
+                                <li><a class="dropdown-item" href="/programming">Программирование</a></li>
+                                <li><a class="dropdown-item" href="/web-programming">Веб-программирование и веб-языки</a></li>
+                                <li><a class="dropdown-item" href="/server-tech">Серверные веб-технологии</a></li>
+                                <li><a class="dropdown-item" href="/it">Прикладные информационные технологии</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/courseworks">Курсовые работы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/publications">Публикации</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main class="flex-shrink-0">
+            <div class="container my-5">
+                
+    <h1 class="pb-3"></h1>
+
+    <h3 id="тема-2-подготовка-материалов-для-выступления-по-функциональному-программированию-на-языке-javascript">Тема 2. Подготовка материалов для выступления по функциональному программированию на языке JavaScript</h3>
+<p>Функциональное программирование — парадигма программирования, в которой процесс вычисления трактуется как вычисление значений функций в математическом понимании последних (в отличие от функций как подпрограмм в процедурном программировании).</p>
+<p>Принципы функционального программирования:</p>
+<ul>
+<li>чистые функции;</li>
+<li>иммутабельность;</li>
+<li>ссылочная прозрачность;</li>
+<li>функции как объекты первого класса;</li>
+<li>функции высшего порядка;</li>
+<li>рекурсия.</li>
+</ul>
+<p>Чистыми называют функции, которые не имеют побочных эффектов ввода-вывода и памяти (они зависят только от своих параметров и возвращают только свой результат). Чистые функции для одних и тех же аргументов возвращают одинаковый результат.</p>
+<p>Пример чистой функции:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">multuply</span>(<span style="color:#a6e22e">a</span>, <span style="color:#a6e22e">b</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">b</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Иммутабельность - невозможность изменения сущности.
+Пример функции:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">slugify</span>(<span style="color:#a6e22e">str</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">str</span>.<span style="color:#a6e22e">toLowerCase</span>().<span style="color:#a6e22e">trim</span>().<span style="color:#a6e22e">split</span>(<span style="color:#e6db74">&#39; &#39;</span>).<span style="color:#a6e22e">join</span>(<span style="color:#e6db74">&#39;-&#39;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span> 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">str</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;some url text&#39;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">slugify</span>(<span style="color:#a6e22e">str</span>);
+</span></span></code></pre></div><p>Приведённые в коде функции позволяют создать функцию для преобразования строки, не меняющую исходную строку.</p>
+<p>Если функция неизменно возвращает один и тот же результат для одних и тех же передаваемых ей входных значений, она обладает ссылочной прозрачностью.</p>
+<p>Идея восприятия функций как объектов первого класса заключается в том, что такие функции можно рассматривать как значения и работать с ними как с данными. При этом можно выделить следующие возможности функций:</p>
+<ul>
+<li>Ссылки на функции можно хранить в константах и переменных и через них обращаться к функциям.</li>
+<li>Функции можно передавать другим функциям в качестве параметров.</li>
+<li>Функции можно возвращать из других функций.</li>
+</ul>
+<p>Функции высших порядков — это такие функции, которые могут принимать в качестве аргументов и возвращать другие функции.
+В JavaScript стандартные методы массивов <code>filter</code>, <code>map</code> и <code>reduce</code> принимают в качестве аргументов функции.</p>
+
+
+            </div>
+        </main>
+        <footer class="footer mt-auto py-3 bg-light">
+            <div class="container">
+                <span>&copy; Мельников Федор, 2023</span>
+            </div>
+        </footer>
+    </body>
+</html>

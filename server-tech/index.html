@@ -1,104 +1,108 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en" class="h-100">
     <head>
-        <title>Simple Bootstrap page</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Серверные веб-технологии</title>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <link href="/scss/styles.6e16700409dbf6e5abf2c3615d4fdde3b684602167e0ff2eb6981858e77b0c9a.css" rel="stylesheet" />
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        <script src="/js/index.ac84e41b83204f787ac9dddeb3b15030497a26873d789381b1e0c34c94deab34.js" integrity="sha256-rITkG4MgT3h6yd3es7FQMEl6Joc9eJOBseDDTJTeqzQ=" defer></script>
     </head>
-    <body>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <div class="container">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Главная</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="../contacts/">Об авторе</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="../posts/">Компьютерный практикум</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="../programming/">Программирование</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="./">Серверные веб-технологии</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="../web-programming/">Веб-программирование и веб-языки</a>
-                    </li>
-                    
-                </ul>
+    <body class="d-flex flex-column h-100">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container container-fluid">
+                <a class="navbar-brand" href="/">Портфолио</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Дисциплины
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/kp">Компьютерный практикум</a></li>
+                                <li><a class="dropdown-item" href="/programming">Программирование</a></li>
+                                <li><a class="dropdown-item" href="/web-programming">Веб-программирование и веб-языки</a></li>
+                                <li><a class="dropdown-item" href="/server-tech">Серверные веб-технологии</a></li>
+                                <li><a class="dropdown-item" href="/it">Прикладные информационные технологии</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/courseworks">Курсовые работы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/publications">Публикации</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
-        <div class="container pt-5">
-            <div class="row">
+        <main class="flex-shrink-0">
+            <div class="container my-5">
                 
-                <div class="col-md-12">
-                    <h2>Вариативная самостоятельная работа</h2>
-                    <p><p>Тема 1. Подготовка сообщения и мастер-класса по сравнению Rest API и RPC</p>
-<p><a href="https://github.com/balrundev/webdev-2nd-course/blob/main/server-tech/var/task1.md">Отчёт о выполнении задания</a></p>
-<p>Тема 2. Подготовка выступления и мастер-класса по эволюции стандартов PSR</p>
-<p><a href="https://github.com/balrundev/webdev-2nd-course/blob/main/server-tech/var/task2.md">Отчёт о выполнении задания</a></p>
-<p>Тема 3. Подготовка презентации и мастер-класса по сравнению характеристик MongoDB и Cassandra</p>
-<p><a href="https://github.com/balrundev/webdev-2nd-course/blob/main/server-tech/var/task3.md">Отчёт о выполнении задания</a></p>
- </p>
-                    <p><a class="btn btn-secondary" href="var/" role="button">Читать далее</a></p>
-                    <hr>
-                </div>
-                
-                <div class="col-md-12">
-                    <h2>Веб-приложение с использованием React и effector</h2>
-                    <p><p>Веб-приложение для конвертации валюты с использованием React и effector</p>
-<p><a href="https://github.com/balrundev/webdev-2nd-course/blob/main/server-tech/react-effector-app/react-effector-app.md">Отчёт о выполнении задания</a></p>
- </p>
-                    <p><a class="btn btn-secondary" href="react-effector-app/" role="button">Читать далее</a></p>
-                    <hr>
-                </div>
-                
-                <div class="col-md-12">
-                    <h2>Задания лабораторных работ по темам</h2>
-                    <p><p>Тема 1. Протоколы веба и серверные веб-технологии на платформе Node.js</p>
-<p><a href="https://github.com/balrundev/webdev-2nd-course/blob/main/server-tech/lab/theme-1/theme-1.md">Отчёт о выполнении задания</a></p>
+    <h1 class="pb-3">Серверные веб-технологии</h1>
+
+    <h4 id="задания-лабораторных-работ-по-темам">Задания лабораторных работ по темам</h4>
+<p>Тема 1. Протоколы веба и серверные веб-технологии на платформе Node.js</p>
+<p><a href="lab/theme-1">Отчёт о выполнении задания</a></p>
 <p>Тема 2. Использование серверных веб-технологий на платформе PHP</p>
-<p><a href="https://github.com/balrundev/webdev-2nd-course/blob/main/server-tech/lab/theme-2/theme-2.md">Отчёт о выполнении задания</a></p>
+<p><a href="lab/theme-2">Отчёт о выполнении задания</a></p>
 <p>Тема 3. Управление БД в веб-приложении</p>
-<p><a href="https://github.com/balrundev/webdev-2nd-course/blob/main/server-tech/lab/theme-3/theme-3.md">Отчёт о выполнении задания</a></p>
- </p>
-                    <p><a class="btn btn-secondary" href="lab/" role="button">Читать далее</a></p>
-                    <hr>
-                </div>
-                
-                <div class="col-md-12">
-                    <h2>Инвариантная самостоятельная работа</h2>
-                    <p><p>Тема 1. Проектирование CRUD для серверного веб-приложения</p>
-<p><a href="https://github.com/balrundev/webdev-2nd-course/blob/main/server-tech/invariant/theme-1/task1.md">Отчёт о выполнении задания</a></p>
+<p><a href="lab/theme-3">Отчёт о выполнении задания</a></p>
+<hr>
+<h4 id="отчёт-по-выполнении-курса-на-платформе-открытое-образование">Отчёт по выполнении курса на платформе Открытое образование</h4>
+<p><a href="openedu-progress.png">Ссылка на отчёт</a></p>
+<hr>
+<h4 id="веб-приложение-с-использованием-react-и-effector">Веб-приложение с использованием React и effector</h4>
+<p>Веб-приложение для конвертации валюты с использованием React и effector</p>
+<p><a href="https://github.com/balrundev/webdev-2nd-course/blob/main/server-tech/react-effector-app/react-effector-app.md">Отчёт о выполнении задания</a></p>
+<hr>
+<h4 id="инвариантная-самостоятельная-работа">Инвариантная самостоятельная работа</h4>
+<p>Тема 1. Проектирование CRUD для серверного веб-приложения</p>
+<p><a href="invariant/theme-1">Отчёт о выполнении задания</a></p>
 <p>Тема 2. Проектирование приложения на основе фреймворка Symphony</p>
-<p><a href="https://github.com/balrundev/webdev-2nd-course/blob/main/server-tech/invariant/theme-2/task2.md">Отчёт о выполнении задания</a></p>
+<p><a href="invariant/theme-2">Отчёт о выполнении задания</a></p>
 <p>Тема 3. Разработка базы данных на MongoDB</p>
-<p><a href="https://github.com/balrundev/webdev-2nd-course/blob/main/server-tech/invariant/theme-3/task3.md">Отчёт о выполнении задания</a></p>
+<p><a href="invariant/theme-3">Отчёт о выполнении задания</a></p>
 <p>Тема 4. Подготовка виртуального сервера или деплой-платформы для публикации веб-ресурса на основе Ghost.js</p>
-<p><a href="https://github.com/balrundev/webdev-2nd-course/blob/main/server-tech/invariant/theme-4/task4.md">Отчёт о выполнении задания</a></p>
- </p>
-                    <p><a class="btn btn-secondary" href="invariant/" role="button">Читать далее</a></p>
-                    <hr>
-                </div>
-                
+<p><a href="invariant/theme-4">Отчёт о выполнении задания</a></p>
+<hr>
+<h4 id="вариативная-самостоятельная-работа">Вариативная самостоятельная работа</h4>
+<p>Тема 1. Подготовка сообщения и мастер-класса по сравнению Rest API и RPC</p>
+<p><a href="var/task1">Отчёт о выполнении задания</a></p>
+<p>Тема 2. Подготовка выступления и мастер-класса по эволюции стандартов PSR</p>
+<p><a href="var/task2">Отчёт о выполнении задания</a></p>
+<p>Тема 3. Подготовка презентации и мастер-класса по сравнению характеристик MongoDB и Cassandra</p>
+<p><a href="var/task3">Отчёт о выполнении задания</a></p>
+
+
+    
+
             </div>
-        </div>
-        <footer class="footer">
+        </main>
+        <footer class="footer mt-auto py-3 bg-light">
             <div class="container">
-                <p>© Fyodor Melnikov, 2021-2023</p>
+                <span>&copy; Мельников Федор, 2023</span>
             </div>
         </footer>
     </body>

@@ -1,0 +1,50 @@
+version: '2'
+
+services:
+  nginx-proxy:
+    image: nginxproxy/nginx-proxy
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - conf:/etc/nginx/conf.d
+      - vhost:/etc/nginx/vhost.d
+      - html:/usr/share/nginx/html
+      - certs:/etc/nginx/certs:ro      
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+
+  acme-companion:
+    image: nginxproxy/acme-companion
+    container_name: nginx-proxy-acme
+    environment:
+      - DEFAULT_EMAIL=balrundev@gmail.com
+    volumes_from:
+      - nginx-proxy
+    volumes:
+      - certs:/etc/nginx/certs:rw
+      - acme:/etc/acme.sh
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    network_mode: bridge
+
+  whoami:
+    image: jwilder/whoami
+    environment:
+      - VIRTUAL_HOST=whoami.balrundev.store
+      - VIRTUAL_PORT=8000
+      - LETSENCRYPT_HOST=whoami.balrundev.store
+      - LETSENCRYPT_EMAIL=balrundev@gmail.com
+
+  whoami2:
+    image: jwilder/whoami
+    environment:
+      - VIRTUAL_HOST=whoami2.balrundev.store
+      - VIRTUAL_PORT=8080
+      - LETSENCRYPT_HOST=whoami2.balrundev.store
+      - LETSENCRYPT_EMAIL=balrundev@gmail.com
+
+volumes:
+  conf:
+  vhost:
+  html:
+  certs:
+  acme:

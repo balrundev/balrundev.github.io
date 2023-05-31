@@ -1,90 +1,83 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en" class="h-100">
     <head>
-        <title>Simple Bootstrap page</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../../style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>6 семестр</title>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <link href="/scss/styles.6e16700409dbf6e5abf2c3615d4fdde3b684602167e0ff2eb6981858e77b0c9a.css" rel="stylesheet" />
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        <script src="/js/index.ac84e41b83204f787ac9dddeb3b15030497a26873d789381b1e0c34c94deab34.js" integrity="sha256-rITkG4MgT3h6yd3es7FQMEl6Joc9eJOBseDDTJTeqzQ=" defer></script>
     </head>
-    <body>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <div class="container">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Главная</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="../../contacts/">Об авторе</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="../../posts/">Компьютерный практикум</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="../">Программирование</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="../../server-tech/">Серверные веб-технологии</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="../../web-programming/">Веб-программирование и веб-языки</a>
-                    </li>
-                    
-                </ul>
+    <body class="d-flex flex-column h-100">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container container-fluid">
+                <a class="navbar-brand" href="/">Портфолио</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Дисциплины
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/kp">Компьютерный практикум</a></li>
+                                <li><a class="dropdown-item" href="/programming">Программирование</a></li>
+                                <li><a class="dropdown-item" href="/web-programming">Веб-программирование и веб-языки</a></li>
+                                <li><a class="dropdown-item" href="/server-tech">Серверные веб-технологии</a></li>
+                                <li><a class="dropdown-item" href="/it">Прикладные информационные технологии</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/courseworks">Курсовые работы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/publications">Публикации</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
-        <div class="container pt-5">
-            <div class="row">
+        <main class="flex-shrink-0">
+            <div class="container my-5">
                 
-                <div class="col-md-12">
-                    <h2>Вариативная самостоятельная работа</h2>
-                    <p><h4>Тема 1</h4>
-<p>1.2 Разработка скрипта, вычисляющего произведение матриц произвольной размерности с использованием Numba и замером времени вычисления. Создание отчета по результатам анализа производительности.</p>
-<p><a href="https://github.com/balrundev/programming-tasks/tree/main/6th-semester/var/theme-1">Ссылка на репозиторий</a></p>
-<h4>Тема 2</h4>
-<p>2.1 Написать программу, позволяющую выполнять подсчет слов в тексте, а также вычислять размер (в символах) каждого слова. Используйте для возвращения результатов подсчета механизм генераторов.</p>
-<p><a href="https://github.com/balrundev/programming-tasks/tree/main/6th-semester/var/theme-2">Ссылка на репозиторий</a></p>
-<h4>Тема 3</h4>
-<p>3.1 Реализация графического интерфейса и формы для приложения «Гостевая книга» с возможностью сохранения данных из полей формы в файл.</p>
-<p><a href="https://github.com/balrundev/programming-tasks/tree/main/6th-semester/var/theme-3">Ссылка на репозиторий</a></p>
-<h4>Тема 4</h4>
-<p>4.1 Написать программу, в которой пользователь вводит число от 0 до 9 включительно, а программа выводит название введённого числа, а если второй входной аргумент type имеет значение bin, oct, hex, то функция преобразует это число в бинарную, восьмеричную или шестнадцатеричную форму. Предусмотреть проверку корректности введённого пользователем значения. При реализации используемые библиотеки должны находиться в виртуальном окружении (использовать virtualenv).</p>
-<p><a href="https://github.com/balrundev/programming-tasks/tree/main/6th-semester/var/theme-4">Ссылка на репозиторий</a></p>
- </p>
-                    <p><a class="btn btn-secondary" href="var/" role="button">Читать далее</a></p>
-                    <hr>
-                </div>
-                
-                <div class="col-md-12">
-                    <h2>Инвариантная самостоятельная работа</h2>
-                    <p><h4>Тема 1</h4>
+    <h1 class="pb-3">6 семестр</h1>
+
+    <h4 id="инвариантная-самостоятельная-работа">Инвариантная самостоятельная работа</h4>
+<h4 id="тема-1">Тема 1</h4>
 <p>1.1 Разработка скрипта, вычисляющего статистические показатели (среднее значение, дисперсия, среднее квадратичное отклонение) для данных, считанных из CSV-файла.
 1.2 Осуществить рефакторинг (модификация) скрипта, вычисляющего статистические показатели для данных, считанных из CSV, с использованием библиотеки научных вычислений numpy.</p>
 <p><a href="https://github.com/balrundev/programming-tasks/tree/main/6th-semester/invariant/theme-1">Ссылка на репозиторий</a></p>
-<h4>Тема 2</h4>
+<h4 id="тема-2">Тема 2</h4>
 <p>2.1 На основе кода, предоставленного преподавателем, реализовать генератор чисел ряда Фибоначчи. Генератор требуется создать двумя вариантами: с помощью генератора списков, с помощью функции, внутри которой yield.<br>
 2.2 Разработать программу, позволяющую генерировать уникальные идентификаторы: UUID (universally unique identifier). Структура UUID — на усмотрение студента.</p>
 <p><a href="https://github.com/balrundev/programming-tasks/tree/main/6th-semester/invariant/theme-2">Ссылка на репозиторий</a></p>
-<h4>Тема 3</h4>
+<h4 id="тема-3">Тема 3</h4>
 <p>3.1 Разработать программу, позволяющую решать квадратное уравнение через вычисление дискриминанта. В программе должен быть предусмотрен ввод значений коэффициентов a, b, c пользователем.<br>
 3.1 Разработать программу, позволяющую решать систему уравнений. Программа должна позволять вводить коэффициенты при неизвестных, а также должна учитывать возможность несовместного решения системы. Графический интерфейс реализовать с помощью PyQt или TKinter.</p>
 <p><a href="https://github.com/balrundev/programming-tasks/tree/main/6th-semester/invariant/theme-3">Ссылка на репозиторий</a></p>
- </p>
-                    <p><a class="btn btn-secondary" href="invariant/" role="button">Читать далее</a></p>
-                    <hr>
-                </div>
-                
-                <div class="col-md-12">
-                    <h2>Лабораторные работы</h2>
-                    <p><p><strong>Лабораторные работы 1, 2. Вычисление статистических параметров</strong></p>
+<hr>
+<h4 id="лабораторные-работы">Лабораторные работы</h4>
+<p><strong>Лабораторные работы 1, 2. Вычисление статистических параметров</strong></p>
 <p>Выполненная работа размещена по <a href="https://replit.com/@balrundev/ClassicIntelligentEvaluations#main.py">ссылке</a>.</p>
 <p><strong>Лабораторные работы 3, 4. Анализ данных с помощью Pandas</strong></p>
 <p>Часть 1: <a href="https://colab.research.google.com/drive/1Fukj9dqjztuigay8WBER5KB6X9K5ez8q?usp=sharing">Google Colaboratory</a></p>
@@ -93,16 +86,13 @@
 <p>Ссылка на задание: <a href="https://colab.research.google.com/drive/1gggWk8XjJDqNhI8EvluxEGYV-ttjBokf?usp=sharing">Google Colaboratory</a>.</p>
 <p><strong>Лабораторная работа 6. Решение задачи регрессии</strong></p>
 <p>Ссылка на задание: <a href="https://colab.research.google.com/drive/1hSv9OrCAUfCDeUFHQowKTM1z3s3Wwttw?usp=sharing">Google Colaboratory</a>.</p>
- </p>
-                    <p><a class="btn btn-secondary" href="lab/" role="button">Читать далее</a></p>
-                    <hr>
-                </div>
-                
+
+
             </div>
-        </div>
-        <footer class="footer">
+        </main>
+        <footer class="footer mt-auto py-3 bg-light">
             <div class="container">
-                <p>© Fyodor Melnikov, 2021-2023</p>
+                <span>&copy; Мельников Федор, 2023</span>
             </div>
         </footer>
     </body>

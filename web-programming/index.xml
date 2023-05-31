@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Веб-программирование и веб-языки on My New Hugo Site</title>
+    <link>http://portfolio.balrundev.ru/web-programming/</link>
+    <description>Recent content in Веб-программирование и веб-языки on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://portfolio.balrundev.ru/web-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/invariant/task1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/invariant/task1/</guid>
+      <description>Тема 1. Создание рабочего пространства, регистрация репозитория Git в качество портфолио, анализ, обоснование выбора и настройка выбранных для работы аппаратно-программных комплексов, современных инструментальных средств удалённого доступа и веб-технологий Рабочее пространство разработчика может состоять из следующих компонентов:
+Браузер Google Chrome, Chromium, в т.ч. нестабильные версии для разработчиков (https://www.google.com/intl/ru_ru/chrome/, https://www.chromium.org/) Браузеры Firefox, Edge, в т.ч. нестабильные версии для разработчиков Node.js (LTS и Current версии) Локальный веб-сервер XAMMP или аналогичный Система контроля версий Git (https://git-scm.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/invariant/task2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/invariant/task2/</guid>
+      <description>Тема 2. Настройка программного обеспечения для управления зависимостями в веб-проекте Для управления зависимостями в проектах, разрабатываемых с помощью Node.js, используются менеджеры пакетов npm и yarn.
+Менеджер пакетов npm входит в состав Node.js.
+Для установки Yarn необходимо выполнить команду:
+npm install yarn -g После её выполнения можно проверить установку Yarn путём выполнения команды для вывода установленной версии:
+yarn -v </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/invariant/task3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/invariant/task3/</guid>
+      <description>Тема 3. Разработка приложения для асинхронного считывания данных из JSON и вывода в веб-документ путём нативной модификации дерева DOM Данные JSON получены по адресу https://kodaktor.ru/j/users.
+Данные считываются с помощью fetch. Модификация дерева DOM происходит путём вызова функции appendChild.
+Скриншот приложения:
+Код приложения (фрагмент script):
+document.querySelector(&amp;#39;#btn&amp;#39;).onclick = async () =&amp;gt; { let response = await fetch(&amp;#39;https://kodaktor.ru/j/users&amp;#39;); data = await response.json(); data.users.forEach(user =&amp;gt; { let ul = document.querySelector(&amp;#39;#users&amp;#39;); let li = document.createElement(&amp;#39;li&amp;#39;); li.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/invariant/task4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/invariant/task4/</guid>
+      <description>Тема 4. Настройка линтера и иных средств мониторинга корректности программного года Настройка линтера eslint для Visual Studio Code:
+Установка eslint npm install -D eslint Установка плагинов eslint npm install -D eslint-config-airbnb-base eslint-plugin-import Создание конфигурационного файла .eslintrc.yml extends: - &amp;#39;airbnb-base&amp;#39; env: node: true browser: true Установка плагина ESLint Исправление кода с учётом рекомендаций линтера:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/lab/theme-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/lab/theme-1/</guid>
+      <description>Тема 1. Языковые средства веб-технологий на основе XML и CSS и развёртывание среды разработки компонентов аппаратно-программных комплексов Представьте свои текущие знания в области HTML в виде набора тегов (правильно сформированного XML-документа) Осуществите рефакторинг DTD для данного документа, уменьшив количество повторяющихся инструкций XML-документ
+DTD
+Рассмотрите документ Статистика посещений страницы (https://kodaktor.ru/g/08092017_stats). Основываясь на нём, разработайте язык для описания посещений некоторого URL, т.е. создайте DTD и валидный документ. XML-документ
+DTD
+Разработайте или сгенерируйте схему (XML Schema) для документа и осуществите её валидацию с помощью инструмента типа xmlvalidation.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/lab/theme-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/lab/theme-2/</guid>
+      <description>Тема 2. Основы современного JavaScript (ECMAScript 2016, ECMAScript 2017): синтаксис, структуры данных и функциональный стиль программирования I. Развёртывание и настройка папки проекта и приложений для управления JavaScript-проектом и мониторинга зависимостей Создание проекта npm init -y Установка diff2html-cli npm -i -D diff2html-cli Установка nodemon npm i -D nodemon Выполнение diff2html git diff --no-index 1.js 2.js | diff2html -d word -s line -i stdin Автоматизация перезапуска сценария с помощью nodemon npx nodemon .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/lab/theme-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/lab/theme-3/</guid>
+      <description>Тема 3. Элементы асинхронного и событийно-ориентированного клиентского веб-программирования Часть 1 Линтинг JSON-документа
+Валидация JSON-документа относительно схемы
+Вывод курсов валют в виде таблицы
+https://kodaktor.ru/g/ecf46f1
+Код приложения (фрагмент script):
+(async () =&amp;gt; { let response = await fetch(&amp;#39;https://kodaktor.ru/j/rates&amp;#39;); data = await response.json(); data.forEach(price =&amp;gt; { document.querySelector(&amp;#39;tbody&amp;#39;).innerHTML += `&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;${price.name}&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;${price.sell}&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;${price.buy}&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;`; }); })(); Часть 2 https://kodaktor.ru/g/6427f56</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/var/task1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/var/task1/</guid>
+      <description>Тема 1. Экспериментальная проверка корректности документов (валидация) на языках разметки Валидация XML-документов позволяет проверить, что документ является синтаксически верным (правильно сформированным, well-formed) и валидным относительно определённой структуры (схемы).
+Схема документа - DTD (Document Type Definition).
+Проверка синтаксиса и валидация относительно DTD может быть произведена с помощью сервиса валидации W3C: https://validator.w3.org/.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/var/task2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/var/task2/</guid>
+      <description>Тема 2. Подготовка материалов для выступления по функциональному программированию на языке JavaScript Функциональное программирование — парадигма программирования, в которой процесс вычисления трактуется как вычисление значений функций в математическом понимании последних (в отличие от функций как подпрограмм в процедурном программировании).
+Принципы функционального программирования:
+чистые функции; иммутабельность; ссылочная прозрачность; функции как объекты первого класса; функции высшего порядка; рекурсия. Чистыми называют функции, которые не имеют побочных эффектов ввода-вывода и памяти (они зависят только от своих параметров и возвращают только свой результат).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/var/task3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/var/task3/</guid>
+      <description>Тема 3. Проектирование сценария для подбора цветового оформления веб-документа Сценарий реализован с использованием библиотеки chroma.js.
+Шкала показывается от двух случайно выбранных цветов, которые генерируются с помощью метода chroma.random(). Для создания шкалы используется метод chroma.scale(colors).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/var/task4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/var/task4/</guid>
+      <description>Тема 4. Подготовка материалов для выступления по настройке линтера кода ESLint - это статический анализатор кода, который может находить синтаксические ошибки, баги и неточности форматирования.
+Для работы ESLint необходимо установить Node.js и npm.
+Настройка линтера eslint для Visual Studio Code:
+Установка eslint npm install -D eslint Установка плагинов eslint npm install -D eslint-config-airbnb-base eslint-plugin-import Создание конфигурационного файла .eslintrc.yml extends: - &amp;#39;airbnb-base&amp;#39; env: node: true browser: true Установка плагина ESLint Исправление кода с учётом рекомендаций линтера:</description>
+    </item>
+    
+  </channel>
+</rss>

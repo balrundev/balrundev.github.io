@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Главная страница on My New Hugo Site</title>
+    <link>http://portfolio.balrundev.ru/</link>
+    <description>Recent content in Главная страница on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://portfolio.balrundev.ru/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/it/oauth-providers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/it/oauth-providers/</guid>
+      <description>Список провайдеров oAuth Библиотека для Go: https://github.com/golang/oauth2
+Документация: https://pkg.go.dev/golang.org/x/oauth2
+Готовые endpoints для различных сервисов: https://pkg.go.dev/golang.org/x/oauth2/endpoints
+VK Документация
+Использование OAuth и API VK в Go (Habr)
+Yandex Документация
+Google Официальный клиент Google API для Go
+Документация
+OAuth 2.0 Playground (Google OAuth2 API v2)
+GitHub Документация
+Mail.Ru Документация
+GitLab Документация</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/kp/invariant/theme-1/task1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/kp/invariant/theme-1/task1/</guid>
+      <description>Тема 1. Транспиляция и сборка проекта с использованием директив импорта и экспорта в код с модульностью CommonJS Создание проекта yarn init -y Добавление зависимостей yarn add -D babel-cli babel-preset-env Настройка Babel (файл .babelrc)
+Добавление библиотеки moment
+yarn add moment Команда транспиляции babel-node ./src/index.js Сборка проекта babel ./src -d ./lib Файлы main.js и name.js находятся в отношении нативной модульности.
+Исходные файлы расположены в директории src, транспилированные - в директории lib.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/kp/invariant/theme-2/task2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/kp/invariant/theme-2/task2/</guid>
+      <description>Тема 2. Отправка HTTP-запроса серверу методом GET и POST с помощью приложения cURL с записью скринкаста совершаемых действий Скринкаст</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/kp/invariant/theme-3/task3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/kp/invariant/theme-3/task3/</guid>
+      <description>Тема 3. Проектирование веб-базы данных и разработка приложения на основе фреймворка Express с реализацией маршрутизации и операций CRUD над простой БД с обработкой запросов REST Для разработки базы данных на MongoDB можно использовать MongoDB Cloud.
+MongoDB не требует определения схемы документа, что позволяет вносить изменения в структуру документа при добавлении или редактировании данных.
+Схема может иметь следующий вид:
+{ name: String, type: String, amount: { number: Number, unit: String } } Реализован REST API для выполнения операций CRUD в базе данных MongoDB.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/kp/var/theme-1/task1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/kp/var/theme-1/task1/</guid>
+      <description>Тема 1. Сборка проекта с помощью бандлера Webpack Добавление webpack и webpack-cli yarn add -D webpack webpack-cli Добавление библиотеки moment yarn add moment Сборка проекта yarn webpack . -o ./bundle.js </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/kp/var/theme-2/task2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/kp/var/theme-2/task2/</guid>
+      <description>Тема 2. Разработка серверной компоненты приложения удалённого доступа к базам данных и экспериментальная проверка корректности её работы Серверная компонента приложения может представлять собой реализацию REST API для выполнения операций CRUD в базе данных MongoDB.
+Приложение реализовано с использованием Express, bodyParser, Mongoose.
+Реализованы следующие операции:
+GET /products - получение списка продуктов
+POST /products/new - добавление нового продукта
+POST /products/update/:id - обновление информации о продукте по ID
+POST /products/delete/:id - удаление информации о продукте по ID</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/kp/var/theme-3/task3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/kp/var/theme-3/task3/</guid>
+      <description>Тема 3. Подготовка материалов для выступления по NoSQL-решениям NoSQL — обозначение широкого класса разнородных систем управления базами данных, существенно отличающихся от традиционных реляционных СУБД с доступом к данным средствами языка SQL.
+Традиционные СУБД ориентируются на требования ACID к транзакционной системе: атомарность, согласованность, изолированность, долговечность, тогда как в NoSQL вместо ACID может рассматриваться набор свойств BASE:
+базовая доступность — каждый запрос гарантированно завершается (успешно или безуспешно). гибкое состояние — состояние системы может изменяться со временем, даже без ввода новых данных, для достижения согласования данных.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/kp/var/theme-4/task4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/kp/var/theme-4/task4/</guid>
+      <description>Тема 4. Развёртывание веб-ресурса на платформе vscale.io с использованием Docker Для развёртывания веб-ресурса на платформе vscale.io необходимо создать аккаунт.
+После создания аккаунта необходимо создать сервер с готовым образом Docker:
+После создания сервера необходимо подключиться к нему по SSH с использования логина и пароля или SSH-ключа.
+Веб-ресурсом может являться сайт на CMS Ghost.js, которую можно установить с помощью Docker-контейнера.
+Для установки контейнера необходимо выполнить команду:
+docker pull ghost Для запуска Ghost необходимо выполнить команду:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/server-tech/invariant/theme-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/server-tech/invariant/theme-1/</guid>
+      <description>Тема 1. Проектирование CRUD для серверного веб-приложения Реализован REST API для выполнения операций CRUD в базе данных MongoDB.
+Приложение реализовано с использованием Express, bodyParser, Mongoose.
+Реализованы следующие операции:
+GET /products - получение списка продуктов
+POST /products/new - добавление нового продукта
+POST /products/update/:id - обновление информации о продукте по ID
+POST /products/delete/:id - удаление информации о продукте по ID
+При отправке запросов для добавления и обновления продукта информация о нём передаётся в теле POST-запроса.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/server-tech/invariant/theme-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/server-tech/invariant/theme-2/</guid>
+      <description>Тема 2. Проектирование приложения на основе фреймворка Symphony Приложение реализует API для выполнения арифметических операций.
+Маршруты описаны в файле routes.yaml.
+Контроллер реализован в файле CalcController.php.
+Ответ сервера при выполнении запроса по маршруту /calc/add/2/3:
+{ &amp;#34;result&amp;#34;: 5 } Ответ сервера при выполнении запроса по маршруту /calc/substract/5/7:
+{ &amp;#34;result&amp;#34;: -2 } Ответ сервера при выполнении запроса по маршруту /calc/multiply/7/5:
+{ &amp;#34;result&amp;#34;: 35 } Ответ сервера при выполнении запроса по маршруту /calc/divide/5/7:
+{ &amp;#34;result&amp;#34;: 0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/server-tech/invariant/theme-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/server-tech/invariant/theme-3/</guid>
+      <description>Тема 3. Разработка базы данных на MongoDB Для разработки базы данных на MongoDB можно использовать MongoDB Cloud.
+Этапы разработки базы данных:
+создание базы данных создание коллекций добавление данных MongoDB не требует определения схемы документа, что позволяет вносить изменения в структуру документа при добавлении или редактировании данных.
+Этапы создания базы данных в MongoDB Cloud:
+создание организации (organization) создание проекта (project) создание кластера (cluster) и базы данных с помощью MongoDB Atlas добавление данных с помощью MongoDB Atlas, MongoDB Compass или веб-приложения </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/server-tech/invariant/theme-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/server-tech/invariant/theme-4/</guid>
+      <description>Тема 4. Подготовка виртуального сервера или деплой-платформы для публикации веб-ресурса на основе Ghost.js Ghost.js можно установить с помощью Docker-контейнера.
+Для установки контейнера необходимо выполнить команду:
+docker pull ghost Для запуска Ghost необходимо выполнить команду:
+docker run -d --name some-ghost -e url=http://localhost:3001 -p 3001:2368 ghost После этого Ghost будет доступен по адресу server_ip:3001.
+Панель администратора доступна по адресу server_ip:3001/ghost.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/server-tech/lab/theme-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/server-tech/lab/theme-1/</guid>
+      <description>Тема 1. Протоколы веба и серверные веб-технологии на платформе Node.js I. Моделирование взаимодействия «клиент-сервер» с помощью программы telnet и программы curl Подготовка данных для отправки запроса
+Отправка запроса с помощью telnet
+Заголовки и тело запроса:
+Ответ сервера:
+X-Test: POST0b63c4e574b64e2a9359be0340b1447b
+Отправка запроса с помощью cURL
+Вывод тела ответа:
+Вывод заголовков ответа:
+Для вывода заголовков ответа необходимо указать ключ -i.
+X-Test: POST0b63c4e574b64e2a9359be0340b1447b
+II. Создание простого веб-сервера на основе Node.js Пример ответа сервера:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/server-tech/lab/theme-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/server-tech/lab/theme-2/</guid>
+      <description>Тема 2. Использование серверных веб-технологий на платформе PHP I. Развёртывание стека LAMP Часть I. Развёртывание PHP/FPM + NGINX
+Часть II
+II. Разработка на PHP с помощью GD2 графического интерфейса визуализации данных, полученных с помощью сетевого интерфейса </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/server-tech/lab/theme-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/server-tech/lab/theme-3/</guid>
+      <description>Тема 3. Управление БД в веб-приложении Для создания базы данных MongoDB можно использовать MongoDB Cloud.
+Подключение к серверу баз данных может производиться с помощью утилиты mongosh (MongoDB Shell).
+Создание базы данных use j_users Добавление содержимого db.users.insertMany([{&amp;#34;login&amp;#34;:&amp;#34;student&amp;#34;,&amp;#34;password&amp;#34;:&amp;#34;tneduts&amp;#34;},{&amp;#34;login&amp;#34;:&amp;#34;myuser&amp;#34;,&amp;#34;password&amp;#34;:&amp;#34;mypas&amp;#34;},{&amp;#34;login&amp;#34;:&amp;#34;teacher&amp;#34;,&amp;#34;password&amp;#34;:&amp;#34;qq&amp;#34;},{&amp;#34;login&amp;#34;:&amp;#34;myking&amp;#34;,&amp;#34;password&amp;#34;:&amp;#34;myqueen&amp;#34;}]) Получение данных db.users.findOne({login: &amp;#34;teacher&amp;#34;}).password Подключение с помощью mongosh mongosh &amp;#34;mongodb connection string&amp;#34; Получение списка всех записей db.users.find().map(x=&amp;gt;({username:x.login, password:x.password})) </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/server-tech/react-effector-app/react-effector-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/server-tech/react-effector-app/react-effector-app/</guid>
+      <description>Веб-приложение для конвертации валюты с использованием React и effector http://calm-mountain-16557.herokuapp.com/
+API: http://195.58.48.106/api/currency_rates.php?charcode=USD</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/server-tech/var/task1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/server-tech/var/task1/</guid>
+      <description>Тема 1. Подготовка сообщения и мастер-класса по сравнению Rest API и RPC REST API REST (Representational State Transfer - передача состояния представления) — архитектурный стиль взаимодействия компонентов распределённого приложения в сети.
+Ограничения для построения REST-приложений по Филдингу:
+Модель клиент-сервер Отсутствие состояния Кэширование Единообразие интерфейса Слои Код по требованию Преимущества REST-приложений:
+Надёжностть Производительность Масштабируемость Прозрачность системы взаимодействия Простота интерфейсов Портативность компонентов Лёгкость внесения изменений Способностью эволюционировать, приспосабливаясь к новым требованиям PRC PRC (Remote Procedure Call - удалённый вызов процедур) — класс технологий, позволяющих программам вызывать функции или процедуры в другом адресном пространстве (на удалённых узлах, либо в независимой сторонней системе на том же узле).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/server-tech/var/task2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/server-tech/var/task2/</guid>
+      <description>Тема 2. Подготовка выступления и мастер-класса по эволюции стандартов PSR PSR (PHP Standarts Recommendations) - это набор рекомендаций для PHP-разработчиков.
+PSR-0 – Стандарт автозагрузки PSR-1 – Базовый стандарт оформления кода PSR-2 – Рекомендации по оформлению кода PSR-3 – Интерфейс протоколирования PSR-4 – Улучшенная автозагрузка PSR-0: Autoloading Standard описывает обязательные требования, которых необходимо придерживаться для взаимодействия с автозагрузчиком. Стандарт устарел и заменён PSR-4.
+PSR-4: Autoloading Standard описывает спецификацию автозагрузки классов из файлов.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/server-tech/var/task3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/server-tech/var/task3/</guid>
+      <description>Тема 3. Подготовка презентации и мастер-класса по сравнению характеристик MongoDB и Cassandra MongoDB — документоориентированная система управления базами данных, не требующая описания схемы таблиц. Считается одним из классических примеров NoSQL-систем, использует JSON-подобные документы и схему базы данных.
+Apache Cassandra — распределённая система управления базами данных, относящаяся к классу NoSQL-систем и рассчитанная на создание высокомасштабируемых и надёжных хранилищ огромных массивов данных, представленных в виде хэша.
+MongoDB Имеется поддержка индексов. Система может работать с набором реплик, то есть содержать две или более копии данных на различных узлах.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/invariant/task1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/invariant/task1/</guid>
+      <description>Тема 1. Создание рабочего пространства, регистрация репозитория Git в качество портфолио, анализ, обоснование выбора и настройка выбранных для работы аппаратно-программных комплексов, современных инструментальных средств удалённого доступа и веб-технологий Рабочее пространство разработчика может состоять из следующих компонентов:
+Браузер Google Chrome, Chromium, в т.ч. нестабильные версии для разработчиков (https://www.google.com/intl/ru_ru/chrome/, https://www.chromium.org/) Браузеры Firefox, Edge, в т.ч. нестабильные версии для разработчиков Node.js (LTS и Current версии) Локальный веб-сервер XAMMP или аналогичный Система контроля версий Git (https://git-scm.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/invariant/task2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/invariant/task2/</guid>
+      <description>Тема 2. Настройка программного обеспечения для управления зависимостями в веб-проекте Для управления зависимостями в проектах, разрабатываемых с помощью Node.js, используются менеджеры пакетов npm и yarn.
+Менеджер пакетов npm входит в состав Node.js.
+Для установки Yarn необходимо выполнить команду:
+npm install yarn -g После её выполнения можно проверить установку Yarn путём выполнения команды для вывода установленной версии:
+yarn -v </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/invariant/task3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/invariant/task3/</guid>
+      <description>Тема 3. Разработка приложения для асинхронного считывания данных из JSON и вывода в веб-документ путём нативной модификации дерева DOM Данные JSON получены по адресу https://kodaktor.ru/j/users.
+Данные считываются с помощью fetch. Модификация дерева DOM происходит путём вызова функции appendChild.
+Скриншот приложения:
+Код приложения (фрагмент script):
+document.querySelector(&amp;#39;#btn&amp;#39;).onclick = async () =&amp;gt; { let response = await fetch(&amp;#39;https://kodaktor.ru/j/users&amp;#39;); data = await response.json(); data.users.forEach(user =&amp;gt; { let ul = document.querySelector(&amp;#39;#users&amp;#39;); let li = document.createElement(&amp;#39;li&amp;#39;); li.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/invariant/task4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/invariant/task4/</guid>
+      <description>Тема 4. Настройка линтера и иных средств мониторинга корректности программного года Настройка линтера eslint для Visual Studio Code:
+Установка eslint npm install -D eslint Установка плагинов eslint npm install -D eslint-config-airbnb-base eslint-plugin-import Создание конфигурационного файла .eslintrc.yml extends: - &amp;#39;airbnb-base&amp;#39; env: node: true browser: true Установка плагина ESLint Исправление кода с учётом рекомендаций линтера:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/lab/theme-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/lab/theme-1/</guid>
+      <description>Тема 1. Языковые средства веб-технологий на основе XML и CSS и развёртывание среды разработки компонентов аппаратно-программных комплексов Представьте свои текущие знания в области HTML в виде набора тегов (правильно сформированного XML-документа) Осуществите рефакторинг DTD для данного документа, уменьшив количество повторяющихся инструкций XML-документ
+DTD
+Рассмотрите документ Статистика посещений страницы (https://kodaktor.ru/g/08092017_stats). Основываясь на нём, разработайте язык для описания посещений некоторого URL, т.е. создайте DTD и валидный документ. XML-документ
+DTD
+Разработайте или сгенерируйте схему (XML Schema) для документа и осуществите её валидацию с помощью инструмента типа xmlvalidation.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/lab/theme-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/lab/theme-2/</guid>
+      <description>Тема 2. Основы современного JavaScript (ECMAScript 2016, ECMAScript 2017): синтаксис, структуры данных и функциональный стиль программирования I. Развёртывание и настройка папки проекта и приложений для управления JavaScript-проектом и мониторинга зависимостей Создание проекта npm init -y Установка diff2html-cli npm -i -D diff2html-cli Установка nodemon npm i -D nodemon Выполнение diff2html git diff --no-index 1.js 2.js | diff2html -d word -s line -i stdin Автоматизация перезапуска сценария с помощью nodemon npx nodemon .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/lab/theme-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/lab/theme-3/</guid>
+      <description>Тема 3. Элементы асинхронного и событийно-ориентированного клиентского веб-программирования Часть 1 Линтинг JSON-документа
+Валидация JSON-документа относительно схемы
+Вывод курсов валют в виде таблицы
+https://kodaktor.ru/g/ecf46f1
+Код приложения (фрагмент script):
+(async () =&amp;gt; { let response = await fetch(&amp;#39;https://kodaktor.ru/j/rates&amp;#39;); data = await response.json(); data.forEach(price =&amp;gt; { document.querySelector(&amp;#39;tbody&amp;#39;).innerHTML += `&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;${price.name}&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;${price.sell}&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;${price.buy}&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;`; }); })(); Часть 2 https://kodaktor.ru/g/6427f56</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/var/task1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/var/task1/</guid>
+      <description>Тема 1. Экспериментальная проверка корректности документов (валидация) на языках разметки Валидация XML-документов позволяет проверить, что документ является синтаксически верным (правильно сформированным, well-formed) и валидным относительно определённой структуры (схемы).
+Схема документа - DTD (Document Type Definition).
+Проверка синтаксиса и валидация относительно DTD может быть произведена с помощью сервиса валидации W3C: https://validator.w3.org/.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/var/task2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/var/task2/</guid>
+      <description>Тема 2. Подготовка материалов для выступления по функциональному программированию на языке JavaScript Функциональное программирование — парадигма программирования, в которой процесс вычисления трактуется как вычисление значений функций в математическом понимании последних (в отличие от функций как подпрограмм в процедурном программировании).
+Принципы функционального программирования:
+чистые функции; иммутабельность; ссылочная прозрачность; функции как объекты первого класса; функции высшего порядка; рекурсия. Чистыми называют функции, которые не имеют побочных эффектов ввода-вывода и памяти (они зависят только от своих параметров и возвращают только свой результат).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/var/task3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/var/task3/</guid>
+      <description>Тема 3. Проектирование сценария для подбора цветового оформления веб-документа Сценарий реализован с использованием библиотеки chroma.js.
+Шкала показывается от двух случайно выбранных цветов, которые генерируются с помощью метода chroma.random(). Для создания шкалы используется метод chroma.scale(colors).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/web-programming/var/task4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/web-programming/var/task4/</guid>
+      <description>Тема 4. Подготовка материалов для выступления по настройке линтера кода ESLint - это статический анализатор кода, который может находить синтаксические ошибки, баги и неточности форматирования.
+Для работы ESLint необходимо установить Node.js и npm.
+Настройка линтера eslint для Visual Studio Code:
+Установка eslint npm install -D eslint Установка плагинов eslint npm install -D eslint-config-airbnb-base eslint-plugin-import Создание конфигурационного файла .eslintrc.yml extends: - &amp;#39;airbnb-base&amp;#39; env: node: true browser: true Установка плагина ESLint Исправление кода с учётом рекомендаций линтера:</description>
+    </item>
+    
+    <item>
+      <title>3 семестр</title>
+      <link>http://portfolio.balrundev.ru/programming/3rd-semester/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/programming/3rd-semester/</guid>
+      <description>Инвариантная самостоятельная работа Тема 1 1.2. Разработка скрипта, вычисляющего сумму первых n-членов арифметической прогрессии (использование функций, условных операторов).
+1.3. Разработка скрипта, позволяющего вычислить площадь треугольника с помощью формулы Герона.
+1.4. Создание сценария, вычисляющего операции сложения, вычитания, умножения, деления для двух операндов.
+Ссылка на репозиторий
+Тема 2 2.1. Разработать скрипт с функцией, которая строит таблицу истинности для логического выражения (по вариантам) для двух и трех аргументов (используются различные наборы значений аргументов).</description>
+    </item>
+    
+    <item>
+      <title>4 семестр</title>
+      <link>http://portfolio.balrundev.ru/programming/4th-semester/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/programming/4th-semester/</guid>
+      <description>Инвариантная самостоятельная работа Тема 1 1.1. Разработать программу с реализацией функции для считывания json-данных из файла и вывод их в табличном виде на экран. Реализовать базовый синтаксис для обработки исключений (try .. except).
+1.2. Дополнение программы для считывания данных проверкой утверждений или высказываний (assert). Создание отдельного блока для такой проверки (с помощью name) и скрипта командной строки для запуска этих проверок.
+1.3. Дополнение программы для считывания данных с использованием менеджера контекстов и реализации расширенного синтаксиса для обработки исключений.</description>
+    </item>
+    
+    <item>
+      <title>5 семестр</title>
+      <link>http://portfolio.balrundev.ru/programming/5th-semester/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/programming/5th-semester/</guid>
+      <description>Инвариантная самостоятельная работа Тема 1 1.1 Исследовать функционал одного из модулей стандартной библиотеки (string, re, datetime, math, random, os, и т.д.) и, используя инструмент Jupyter Notebook, создать документ с описанием и примерами использования его функционала.
+1.2 Создание пользовательского пакета для приложения «Гостевая книга» с прототипами методов, позволяющих взаимодействовать с JSON-файлом (создание, удаление, переименование, чтение, запись).
+Ссылка на репозиторий
+Тема 2 2.1 Разработать функцию, возвращающую элементы ряда Фибоначчи по данному максимальному значению.</description>
+    </item>
+    
+    <item>
+      <title>6 семестр</title>
+      <link>http://portfolio.balrundev.ru/programming/6th-semester/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/programming/6th-semester/</guid>
+      <description>Инвариантная самостоятельная работа Тема 1 1.1 Разработка скрипта, вычисляющего статистические показатели (среднее значение, дисперсия, среднее квадратичное отклонение) для данных, считанных из CSV-файла. 1.2 Осуществить рефакторинг (модификация) скрипта, вычисляющего статистические показатели для данных, считанных из CSV, с использованием библиотеки научных вычислений numpy.
+Ссылка на репозиторий
+Тема 2 2.1 На основе кода, предоставленного преподавателем, реализовать генератор чисел ряда Фибоначчи. Генератор требуется создать двумя вариантами: с помощью генератора списков, с помощью функции, внутри которой yield.</description>
+    </item>
+    
+    <item>
+      <title>7 семестр</title>
+      <link>http://portfolio.balrundev.ru/programming/7th-semester/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/programming/7th-semester/</guid>
+      <description>Лабораторные работы Лабораторные работы 1, 2. Численное интегрирование
+Выполненная работа размещена по ссылке.
+Лабораторная работа 3. Численное интегрирование. Cython. Joblib
+Ссылка на задание: Google Colaboratory.
+Лабораторная работа 4. Парсинг сайта herzen.spb.ru
+Ссылка на задание: Google Colaboratory.
+Лабораторная работа 5. Частеречная разметка
+Ссылка на задание: Google Colaboratory.
+Лабораторная работа 6. Обработка текста
+Ссылка на задание: Google Colaboratory.
+Лабораторная работа 7. Реализация Flask-приложения «Счётчик»
+Выполненная работа размещена по ссылке.
+Docker Hub
+Лабораторная работа 8.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Прикладные информационные технологии on My New Hugo Site</title>
+    <link>http://portfolio.balrundev.ru/it/</link>
+    <description>Recent content in Прикладные информационные технологии on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://portfolio.balrundev.ru/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://portfolio.balrundev.ru/it/oauth-providers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://portfolio.balrundev.ru/it/oauth-providers/</guid>
+      <description>Список провайдеров oAuth Библиотека для Go: https://github.com/golang/oauth2
+Документация: https://pkg.go.dev/golang.org/x/oauth2
+Готовые endpoints для различных сервисов: https://pkg.go.dev/golang.org/x/oauth2/endpoints
+VK Документация
+Использование OAuth и API VK в Go (Habr)
+Yandex Документация
+Google Официальный клиент Google API для Go
+Документация
+OAuth 2.0 Playground (Google OAuth2 API v2)
+GitHub Документация
+Mail.Ru Документация
+GitLab Документация</description>
+    </item>
+    
+  </channel>
+</rss>

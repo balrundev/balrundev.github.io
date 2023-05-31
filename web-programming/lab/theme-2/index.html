@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <link href="/scss/styles.6e16700409dbf6e5abf2c3615d4fdde3b684602167e0ff2eb6981858e77b0c9a.css" rel="stylesheet" />
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        <script src="/js/index.ac84e41b83204f787ac9dddeb3b15030497a26873d789381b1e0c34c94deab34.js" integrity="sha256-rITkG4MgT3h6yd3es7FQMEl6Joc9eJOBseDDTJTeqzQ=" defer></script>
+    </head>
+    <body class="d-flex flex-column h-100">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container container-fluid">
+                <a class="navbar-brand" href="/">Портфолио</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Дисциплины
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/kp">Компьютерный практикум</a></li>
+                                <li><a class="dropdown-item" href="/programming">Программирование</a></li>
+                                <li><a class="dropdown-item" href="/web-programming">Веб-программирование и веб-языки</a></li>
+                                <li><a class="dropdown-item" href="/server-tech">Серверные веб-технологии</a></li>
+                                <li><a class="dropdown-item" href="/it">Прикладные информационные технологии</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/courseworks">Курсовые работы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/publications">Публикации</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main class="flex-shrink-0">
+            <div class="container my-5">
+                
+    <h1 class="pb-3"></h1>
+
+    <h3 id="тема-2-основы-современного-javascript-ecmascript-2016-ecmascript-2017-синтаксис-структуры-данных-и-функциональный-стиль-программирования">Тема 2. Основы современного JavaScript (ECMAScript 2016, ECMAScript 2017): синтаксис, структуры данных и функциональный стиль программирования</h3>
+<h4 id="i-развёртывание-и-настройка-папки-проекта-и-приложений-для-управления-javascript-проектом-и-мониторинга-зависимостей">I. Развёртывание и настройка папки проекта и приложений для управления JavaScript-проектом и мониторинга зависимостей</h4>
+<ol>
+<li>Создание проекта</li>
+</ol>
+<pre tabindex="0"><code>npm init -y
+</code></pre><ol start="2">
+<li>Установка diff2html-cli</li>
+</ol>
+<pre tabindex="0"><code>npm -i -D diff2html-cli
+</code></pre><ol start="3">
+<li>Установка nodemon</li>
+</ol>
+<pre tabindex="0"><code>npm i -D nodemon
+</code></pre><ol start="4">
+<li>Выполнение diff2html</li>
+</ol>
+<pre tabindex="0"><code>git diff --no-index 1.js 2.js | diff2html -d word -s line -i stdin
+</code></pre><p><img src="task1/task-1-1.png" alt=""></p>
+<ol start="5">
+<li>Автоматизация перезапуска сценария с помощью nodemon</li>
+</ol>
+<pre tabindex="0"><code>npx nodemon ./1.js
+</code></pre><p><img src="task1/task-1-2.png" alt=""></p>
+<h4 id="ii-часть-а-разработка-веб-сценария-содержащего-решение-линейной-системы-уравнений-методом-крамера">II. Часть А. Разработка веб-сценария, содержащего решение линейной системы уравнений методом Крамера</h4>
+<p><a href="https://kodaktor.ru/be60b94">https://kodaktor.ru/be60b94</a></p>
+<p><a href="task2/kramer_method.html">Веб-страница</a></p>
+<pre tabindex="0"><code>0.68 0.44
+</code></pre><h4 id="часть-б-разработка-веб-сценария-в-функциональном-стиле-javascript-с-использованием-условного-тернарного-оператора">Часть Б. Разработка веб-сценария в функциональном стиле JavaScript с использованием условного (тернарного) оператора</h4>
+<p><a href="task2/ternary_operator.html">Часть 1</a></p>
+<pre tabindex="0"><code>yes
+</code></pre><p><a href="task2/ternary_operator_2.html">Часть 2</a></p>
+<pre tabindex="0"><code>=NaN
+</code></pre>
+
+            </div>
+        </main>
+        <footer class="footer mt-auto py-3 bg-light">
+            <div class="container">
+                <span>&copy; Мельников Федор, 2023</span>
+            </div>
+        </footer>
+    </body>
+</html>
