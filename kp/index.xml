@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Компьютерный практикум on My New Hugo Site</title>
-    <link>http://portfolio.balrundev.ru/kp/</link>
+    <link>https://balrundev.github.io/kp/</link>
     <description>Recent content in Компьютерный практикум on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://portfolio.balrundev.ru/kp/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://balrundev.github.io/kp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://portfolio.balrundev.ru/kp/invariant/theme-1/task1/</link>
+      <link>https://balrundev.github.io/kp/invariant/theme-1/task1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/kp/invariant/theme-1/task1/</guid>
+      <guid>https://balrundev.github.io/kp/invariant/theme-1/task1/</guid>
       <description>Тема 1. Транспиляция и сборка проекта с использованием директив импорта и экспорта в код с модульностью CommonJS Создание проекта yarn init -y Добавление зависимостей yarn add -D babel-cli babel-preset-env Настройка Babel (файл .babelrc)
 Добавление библиотеки moment
 yarn add moment Команда транспиляции babel-node ./src/index.js Сборка проекта babel ./src -d ./lib Файлы main.js и name.js находятся в отношении нативной модульности.
@@ -20,19 +20,19 @@ yarn add moment Команда транспиляции babel-node ./src/index.j
     
     <item>
       <title></title>
-      <link>http://portfolio.balrundev.ru/kp/invariant/theme-2/task2/</link>
+      <link>https://balrundev.github.io/kp/invariant/theme-2/task2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/kp/invariant/theme-2/task2/</guid>
+      <guid>https://balrundev.github.io/kp/invariant/theme-2/task2/</guid>
       <description>Тема 2. Отправка HTTP-запроса серверу методом GET и POST с помощью приложения cURL с записью скринкаста совершаемых действий Скринкаст</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://portfolio.balrundev.ru/kp/invariant/theme-3/task3/</link>
+      <link>https://balrundev.github.io/kp/invariant/theme-3/task3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/kp/invariant/theme-3/task3/</guid>
+      <guid>https://balrundev.github.io/kp/invariant/theme-3/task3/</guid>
       <description>Тема 3. Проектирование веб-базы данных и разработка приложения на основе фреймворка Express с реализацией маршрутизации и операций CRUD над простой БД с обработкой запросов REST Для разработки базы данных на MongoDB можно использовать MongoDB Cloud.
 MongoDB не требует определения схемы документа, что позволяет вносить изменения в структуру документа при добавлении или редактировании данных.
 Схема может иметь следующий вид:
@@ -41,19 +41,19 @@ MongoDB не требует определения схемы документа
     
     <item>
       <title></title>
-      <link>http://portfolio.balrundev.ru/kp/var/theme-1/task1/</link>
+      <link>https://balrundev.github.io/kp/var/theme-1/task1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/kp/var/theme-1/task1/</guid>
+      <guid>https://balrundev.github.io/kp/var/theme-1/task1/</guid>
       <description>Тема 1. Сборка проекта с помощью бандлера Webpack Добавление webpack и webpack-cli yarn add -D webpack webpack-cli Добавление библиотеки moment yarn add moment Сборка проекта yarn webpack . -o ./bundle.js </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://portfolio.balrundev.ru/kp/var/theme-2/task2/</link>
+      <link>https://balrundev.github.io/kp/var/theme-2/task2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/kp/var/theme-2/task2/</guid>
+      <guid>https://balrundev.github.io/kp/var/theme-2/task2/</guid>
       <description>Тема 2. Разработка серверной компоненты приложения удалённого доступа к базам данных и экспериментальная проверка корректности её работы Серверная компонента приложения может представлять собой реализацию REST API для выполнения операций CRUD в базе данных MongoDB.
 Приложение реализовано с использованием Express, bodyParser, Mongoose.
 Реализованы следующие операции:
@@ -65,10 +65,10 @@ POST /products/delete/:id - удаление информации о проду�
     
     <item>
       <title></title>
-      <link>http://portfolio.balrundev.ru/kp/var/theme-3/task3/</link>
+      <link>https://balrundev.github.io/kp/var/theme-3/task3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/kp/var/theme-3/task3/</guid>
+      <guid>https://balrundev.github.io/kp/var/theme-3/task3/</guid>
       <description>Тема 3. Подготовка материалов для выступления по NoSQL-решениям NoSQL — обозначение широкого класса разнородных систем управления базами данных, существенно отличающихся от традиционных реляционных СУБД с доступом к данным средствами языка SQL.
 Традиционные СУБД ориентируются на требования ACID к транзакционной системе: атомарность, согласованность, изолированность, долговечность, тогда как в NoSQL вместо ACID может рассматриваться набор свойств BASE:
 базовая доступность — каждый запрос гарантированно завершается (успешно или безуспешно). гибкое состояние — состояние системы может изменяться со временем, даже без ввода новых данных, для достижения согласования данных.</description>
@@ -76,10 +76,10 @@ POST /products/delete/:id - удаление информации о проду�
     
     <item>
       <title></title>
-      <link>http://portfolio.balrundev.ru/kp/var/theme-4/task4/</link>
+      <link>https://balrundev.github.io/kp/var/theme-4/task4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/kp/var/theme-4/task4/</guid>
+      <guid>https://balrundev.github.io/kp/var/theme-4/task4/</guid>
       <description>Тема 4. Развёртывание веб-ресурса на платформе vscale.io с использованием Docker Для развёртывания веб-ресурса на платформе vscale.io необходимо создать аккаунт.
 После создания аккаунта необходимо создать сервер с готовым образом Docker:
 После создания сервера необходимо подключиться к нему по SSH с использования логина и пароля или SSH-ключа.

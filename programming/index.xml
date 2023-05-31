@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Программирование on My New Hugo Site</title>
-    <link>http://portfolio.balrundev.ru/programming/</link>
+    <link>https://balrundev.github.io/programming/</link>
     <description>Recent content in Программирование on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://portfolio.balrundev.ru/programming/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://balrundev.github.io/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3 семестр</title>
-      <link>http://portfolio.balrundev.ru/programming/3rd-semester/</link>
+      <link>https://balrundev.github.io/programming/3rd-semester/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/programming/3rd-semester/</guid>
+      <guid>https://balrundev.github.io/programming/3rd-semester/</guid>
       <description>Инвариантная самостоятельная работа Тема 1 1.2. Разработка скрипта, вычисляющего сумму первых n-членов арифметической прогрессии (использование функций, условных операторов).
 1.3. Разработка скрипта, позволяющего вычислить площадь треугольника с помощью формулы Герона.
 1.4. Создание сценария, вычисляющего операции сложения, вычитания, умножения, деления для двух операндов.
@@ -21,10 +21,10 @@
     
     <item>
       <title>4 семестр</title>
-      <link>http://portfolio.balrundev.ru/programming/4th-semester/</link>
+      <link>https://balrundev.github.io/programming/4th-semester/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/programming/4th-semester/</guid>
+      <guid>https://balrundev.github.io/programming/4th-semester/</guid>
       <description>Инвариантная самостоятельная работа Тема 1 1.1. Разработать программу с реализацией функции для считывания json-данных из файла и вывод их в табличном виде на экран. Реализовать базовый синтаксис для обработки исключений (try .. except).
 1.2. Дополнение программы для считывания данных проверкой утверждений или высказываний (assert). Создание отдельного блока для такой проверки (с помощью name) и скрипта командной строки для запуска этих проверок.
 1.3. Дополнение программы для считывания данных с использованием менеджера контекстов и реализации расширенного синтаксиса для обработки исключений.</description>
@@ -32,10 +32,10 @@
     
     <item>
       <title>5 семестр</title>
-      <link>http://portfolio.balrundev.ru/programming/5th-semester/</link>
+      <link>https://balrundev.github.io/programming/5th-semester/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/programming/5th-semester/</guid>
+      <guid>https://balrundev.github.io/programming/5th-semester/</guid>
       <description>Инвариантная самостоятельная работа Тема 1 1.1 Исследовать функционал одного из модулей стандартной библиотеки (string, re, datetime, math, random, os, и т.д.) и, используя инструмент Jupyter Notebook, создать документ с описанием и примерами использования его функционала.
 1.2 Создание пользовательского пакета для приложения «Гостевая книга» с прототипами методов, позволяющих взаимодействовать с JSON-файлом (создание, удаление, переименование, чтение, запись).
 Ссылка на репозиторий
@@ -44,10 +44,10 @@
     
     <item>
       <title>6 семестр</title>
-      <link>http://portfolio.balrundev.ru/programming/6th-semester/</link>
+      <link>https://balrundev.github.io/programming/6th-semester/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/programming/6th-semester/</guid>
+      <guid>https://balrundev.github.io/programming/6th-semester/</guid>
       <description>Инвариантная самостоятельная работа Тема 1 1.1 Разработка скрипта, вычисляющего статистические показатели (среднее значение, дисперсия, среднее квадратичное отклонение) для данных, считанных из CSV-файла. 1.2 Осуществить рефакторинг (модификация) скрипта, вычисляющего статистические показатели для данных, считанных из CSV, с использованием библиотеки научных вычислений numpy.
 Ссылка на репозиторий
 Тема 2 2.1 На основе кода, предоставленного преподавателем, реализовать генератор чисел ряда Фибоначчи. Генератор требуется создать двумя вариантами: с помощью генератора списков, с помощью функции, внутри которой yield.</description>
@@ -55,10 +55,10 @@
     
     <item>
       <title>7 семестр</title>
-      <link>http://portfolio.balrundev.ru/programming/7th-semester/</link>
+      <link>https://balrundev.github.io/programming/7th-semester/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/programming/7th-semester/</guid>
+      <guid>https://balrundev.github.io/programming/7th-semester/</guid>
       <description>Лабораторные работы Лабораторные работы 1, 2. Численное интегрирование
 Выполненная работа размещена по ссылке.
 Лабораторная работа 3. Численное интегрирование. Cython. Joblib

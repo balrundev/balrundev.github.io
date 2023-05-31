@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Серверные веб-технологии on My New Hugo Site</title>
-    <link>http://portfolio.balrundev.ru/server-tech/</link>
+    <link>https://balrundev.github.io/server-tech/</link>
     <description>Recent content in Серверные веб-технологии on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://portfolio.balrundev.ru/server-tech/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://balrundev.github.io/server-tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://portfolio.balrundev.ru/server-tech/invariant/theme-1/</link>
+      <link>https://balrundev.github.io/server-tech/invariant/theme-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/server-tech/invariant/theme-1/</guid>
+      <guid>https://balrundev.github.io/server-tech/invariant/theme-1/</guid>
       <description>Тема 1. Проектирование CRUD для серверного веб-приложения Реализован REST API для выполнения операций CRUD в базе данных MongoDB.
 Приложение реализовано с использованием Express, bodyParser, Mongoose.
 Реализованы следующие операции:
@@ -24,10 +24,10 @@ POST /products/delete/:id - удаление информации о проду�
     
     <item>
       <title></title>
-      <link>http://portfolio.balrundev.ru/server-tech/invariant/theme-2/</link>
+      <link>https://balrundev.github.io/server-tech/invariant/theme-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/server-tech/invariant/theme-2/</guid>
+      <guid>https://balrundev.github.io/server-tech/invariant/theme-2/</guid>
       <description>Тема 2. Проектирование приложения на основе фреймворка Symphony Приложение реализует API для выполнения арифметических операций.
 Маршруты описаны в файле routes.yaml.
 Контроллер реализован в файле CalcController.php.
@@ -40,10 +40,10 @@ POST /products/delete/:id - удаление информации о проду�
     
     <item>
       <title></title>
-      <link>http://portfolio.balrundev.ru/server-tech/invariant/theme-3/</link>
+      <link>https://balrundev.github.io/server-tech/invariant/theme-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/server-tech/invariant/theme-3/</guid>
+      <guid>https://balrundev.github.io/server-tech/invariant/theme-3/</guid>
       <description>Тема 3. Разработка базы данных на MongoDB Для разработки базы данных на MongoDB можно использовать MongoDB Cloud.
 Этапы разработки базы данных:
 создание базы данных создание коллекций добавление данных MongoDB не требует определения схемы документа, что позволяет вносить изменения в структуру документа при добавлении или редактировании данных.
@@ -53,10 +53,10 @@ POST /products/delete/:id - удаление информации о проду�
     
     <item>
       <title></title>
-      <link>http://portfolio.balrundev.ru/server-tech/invariant/theme-4/</link>
+      <link>https://balrundev.github.io/server-tech/invariant/theme-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/server-tech/invariant/theme-4/</guid>
+      <guid>https://balrundev.github.io/server-tech/invariant/theme-4/</guid>
       <description>Тема 4. Подготовка виртуального сервера или деплой-платформы для публикации веб-ресурса на основе Ghost.js Ghost.js можно установить с помощью Docker-контейнера.
 Для установки контейнера необходимо выполнить команду:
 docker pull ghost Для запуска Ghost необходимо выполнить команду:
@@ -66,10 +66,10 @@ docker run -d --name some-ghost -e url=http://localhost:3001 -p 3001:2368 ghost 
     
     <item>
       <title></title>
-      <link>http://portfolio.balrundev.ru/server-tech/lab/theme-1/</link>
+      <link>https://balrundev.github.io/server-tech/lab/theme-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/server-tech/lab/theme-1/</guid>
+      <guid>https://balrundev.github.io/server-tech/lab/theme-1/</guid>
       <description>Тема 1. Протоколы веба и серверные веб-технологии на платформе Node.js I. Моделирование взаимодействия «клиент-сервер» с помощью программы telnet и программы curl Подготовка данных для отправки запроса
 Отправка запроса с помощью telnet
 Заголовки и тело запроса:
@@ -85,10 +85,10 @@ II. Создание простого веб-сервера на основе No
     
     <item>
       <title></title>
-      <link>http://portfolio.balrundev.ru/server-tech/lab/theme-2/</link>
+      <link>https://balrundev.github.io/server-tech/lab/theme-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/server-tech/lab/theme-2/</guid>
+      <guid>https://balrundev.github.io/server-tech/lab/theme-2/</guid>
       <description>Тема 2. Использование серверных веб-технологий на платформе PHP I. Развёртывание стека LAMP Часть I. Развёртывание PHP/FPM + NGINX
 Часть II
 II. Разработка на PHP с помощью GD2 графического интерфейса визуализации данных, полученных с помощью сетевого интерфейса </description>
@@ -96,10 +96,10 @@ II. Разработка на PHP с помощью GD2 графического
     
     <item>
       <title></title>
-      <link>http://portfolio.balrundev.ru/server-tech/lab/theme-3/</link>
+      <link>https://balrundev.github.io/server-tech/lab/theme-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/server-tech/lab/theme-3/</guid>
+      <guid>https://balrundev.github.io/server-tech/lab/theme-3/</guid>
       <description>Тема 3. Управление БД в веб-приложении Для создания базы данных MongoDB можно использовать MongoDB Cloud.
 Подключение к серверу баз данных может производиться с помощью утилиты mongosh (MongoDB Shell).
 Создание базы данных use j_users Добавление содержимого db.users.insertMany([{&amp;#34;login&amp;#34;:&amp;#34;student&amp;#34;,&amp;#34;password&amp;#34;:&amp;#34;tneduts&amp;#34;},{&amp;#34;login&amp;#34;:&amp;#34;myuser&amp;#34;,&amp;#34;password&amp;#34;:&amp;#34;mypas&amp;#34;},{&amp;#34;login&amp;#34;:&amp;#34;teacher&amp;#34;,&amp;#34;password&amp;#34;:&amp;#34;qq&amp;#34;},{&amp;#34;login&amp;#34;:&amp;#34;myking&amp;#34;,&amp;#34;password&amp;#34;:&amp;#34;myqueen&amp;#34;}]) Получение данных db.users.findOne({login: &amp;#34;teacher&amp;#34;}).password Подключение с помощью mongosh mongosh &amp;#34;mongodb connection string&amp;#34; Получение списка всех записей db.users.find().map(x=&amp;gt;({username:x.login, password:x.password})) </description>
@@ -107,20 +107,20 @@ II. Разработка на PHP с помощью GD2 графического
     
     <item>
       <title></title>
-      <link>http://portfolio.balrundev.ru/server-tech/react-effector-app/react-effector-app/</link>
+      <link>https://balrundev.github.io/server-tech/react-effector-app/react-effector-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/server-tech/react-effector-app/react-effector-app/</guid>
+      <guid>https://balrundev.github.io/server-tech/react-effector-app/react-effector-app/</guid>
       <description>Веб-приложение для конвертации валюты с использованием React и effector http://calm-mountain-16557.herokuapp.com/
 API: http://195.58.48.106/api/currency_rates.php?charcode=USD</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://portfolio.balrundev.ru/server-tech/var/task1/</link>
+      <link>https://balrundev.github.io/server-tech/var/task1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/server-tech/var/task1/</guid>
+      <guid>https://balrundev.github.io/server-tech/var/task1/</guid>
       <description>Тема 1. Подготовка сообщения и мастер-класса по сравнению Rest API и RPC REST API REST (Representational State Transfer - передача состояния представления) — архитектурный стиль взаимодействия компонентов распределённого приложения в сети.
 Ограничения для построения REST-приложений по Филдингу:
 Модель клиент-сервер Отсутствие состояния Кэширование Единообразие интерфейса Слои Код по требованию Преимущества REST-приложений:
@@ -129,10 +129,10 @@ API: http://195.58.48.106/api/currency_rates.php?charcode=USD</description>
     
     <item>
       <title></title>
-      <link>http://portfolio.balrundev.ru/server-tech/var/task2/</link>
+      <link>https://balrundev.github.io/server-tech/var/task2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/server-tech/var/task2/</guid>
+      <guid>https://balrundev.github.io/server-tech/var/task2/</guid>
       <description>Тема 2. Подготовка выступления и мастер-класса по эволюции стандартов PSR PSR (PHP Standarts Recommendations) - это набор рекомендаций для PHP-разработчиков.
 PSR-0 – Стандарт автозагрузки PSR-1 – Базовый стандарт оформления кода PSR-2 – Рекомендации по оформлению кода PSR-3 – Интерфейс протоколирования PSR-4 – Улучшенная автозагрузка PSR-0: Autoloading Standard описывает обязательные требования, которых необходимо придерживаться для взаимодействия с автозагрузчиком. Стандарт устарел и заменён PSR-4.
 PSR-4: Autoloading Standard описывает спецификацию автозагрузки классов из файлов.</description>
@@ -140,10 +140,10 @@ PSR-4: Autoloading Standard описывает спецификацию авто
     
     <item>
       <title></title>
-      <link>http://portfolio.balrundev.ru/server-tech/var/task3/</link>
+      <link>https://balrundev.github.io/server-tech/var/task3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://portfolio.balrundev.ru/server-tech/var/task3/</guid>
+      <guid>https://balrundev.github.io/server-tech/var/task3/</guid>
       <description>Тема 3. Подготовка презентации и мастер-класса по сравнению характеристик MongoDB и Cassandra MongoDB — документоориентированная система управления базами данных, не требующая описания схемы таблиц. Считается одним из классических примеров NoSQL-систем, использует JSON-подобные документы и схему базы данных.
 Apache Cassandra — распределённая система управления базами данных, относящаяся к классу NoSQL-систем и рассчитанная на создание высокомасштабируемых и надёжных хранилищ огромных массивов данных, представленных в виде хэша.
 MongoDB Имеется поддержка индексов. Система может работать с набором реплик, то есть содержать две или более копии данных на различных узлах.</description>
